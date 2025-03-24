@@ -1,0 +1,44 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+
+# Flask specific
+instance/
+*.db
+*.sqlite
+
+# PyCharm, VSCode, or other IDEs
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.bak
+*.swp
+
+# Configuration files
+*.env
+
+# Database migrations
+migrations/
+
+# Distribution and packaging
+*.egg-info/
+dist/
+build/
+
+# Test coverage
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
