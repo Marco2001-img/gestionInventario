@@ -1,14 +1,14 @@
-import { Outlet } from "react-router-dom"
-import Sidebar from "../components/Sidebar"
-import Resumen from "../components/Resumen"
+import React from 'react'
+import MenuEmpleados from '../../components/MenuEmpleados'
+import { Outlet } from 'react-router-dom'
 
-export default function Layout() {
+export default function LayoutEmpleado() {
   return (
-    <div>
+    <div className=''>
       <div className="container-fluid">
         <div className="row vh-100">
           <div className="col-12 col-md-2 p-3 border-end">
-            <Sidebar />
+            <MenuEmpleados />
           </div>
           <div className="col-12 col-md-10 p-4 overflow-auto">
             <Outlet />
@@ -16,6 +16,5 @@ export default function Layout() {
         </div>
       </div>
     </div>
-
   )
 }

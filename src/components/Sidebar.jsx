@@ -3,7 +3,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 export default function Sidebar() {
     return (
         <div className="" >
-            <div class="d-flex">
+            <div class="">
                 <div className="sidebar mt-3 " >
                     <div className="d-flex justify-content-center">
                         <p>
